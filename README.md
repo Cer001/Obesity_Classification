@@ -1,9 +1,5 @@
 # Obesity Classification
 
-# Introduction
-
-This notebook is the final notebook which shows the baseline model and the final model. It does not contain iterations and other models that were tested; those are included in model_testing_obesity_classification.
-
 ## Business Objective: 
 To improve marketing efforts for obese and overweight customers based on lifestyle metrics, age, and gender for Accenture Marketing.
 
