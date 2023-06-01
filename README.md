@@ -1,5 +1,7 @@
 # Obesity Classification
 
+![image](https://github.com/Cer001/Obesity_Classification/assets/118778732/685b292b-51e4-42e0-8a5c-2ced5a272e7a)
+
 ## Business Objective: 
 To improve marketing efforts for obese and overweight customers based on lifestyle metrics, age, and gender for Accenture Marketing.
 
@@ -59,6 +61,9 @@ The target variable NObeyesdad is a multi-class variable with 7 classes binned a
 
 
 ## Approach:
+
+![image](https://github.com/Cer001/Obesity_Classification/assets/118778732/efeaf9dc-15d0-4aa8-a88e-606e229b2091)
+
 The goal is to produce an accurate machine learning model which can classify for obesity based on lifestyle metrics, Age, and Gender. I have not used any data about BMI which was included in the original data, as it would result in data leakage. I investigated if there are any signals which could best predict for obesity, and found three. These signals can be used in marketing segmentation algorithms as weights, giving more weight to predictive features and less weight to less predictive features in a marketing segmentation algorithm. 
 
 I leveraged machine learning techniques such as Decision Trees and Random Forests which produced favorable results. Other algorithms such as Gaussian Bayes, K Nearest Neighbor, Logistic Regression, and stacking did not produce favorable results when compared to the alternatives. In the end, the best model was a XGBoosted Decision Tree. 
